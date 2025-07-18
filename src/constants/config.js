@@ -7,7 +7,7 @@ export const BASE_URL = IS_PRODUCTION
 
 // URL base do aplicativo back-end
 export const API_BASE_URL = IS_PRODUCTION
-  ? 'https://some-production-site.com/api'
+  ? 'https://app-loja-vendas.onrender.com'
   : 'http://localhost:3001/api';
 
 // Endpoints da API
