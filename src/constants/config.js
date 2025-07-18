@@ -2,12 +2,12 @@ const IS_PRODUCTION = import.meta.env.PROD;
 
 // URL base do aplicativo front-end
 export const BASE_URL = IS_PRODUCTION
-  ? 'https://some-production-site.com/api'
+  ? 'https://some-production-site.com'
   : 'http://localhost:5173';
 
 // URL base do aplicativo back-end
 export const API_BASE_URL = IS_PRODUCTION
-  ? 'https://app-loja-vendas.onrender.com'
+  ? 'https://app-loja-vendas.onrender.com/api'
   : 'http://localhost:3001/api';
 
 // Endpoints da API
