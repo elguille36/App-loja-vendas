@@ -1,4 +1,4 @@
-const IS_PRODUCTION = import.meta.env.MODE === 'production';
+const IS_PRODUCTION = import.meta.env.PROD;
 
 // URL base do aplicativo front-end
 export const BASE_URL = IS_PRODUCTION
