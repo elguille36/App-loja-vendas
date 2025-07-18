@@ -2,7 +2,7 @@ const IS_PRODUCTION = import.meta.env.PROD;
 
 // URL base do aplicativo front-end
 export const BASE_URL = IS_PRODUCTION
-  ? 'https://some-production-site.com'
+  ? 'https://some-production-site.com/api'
   : 'http://localhost:5173';
 
 // URL base do aplicativo back-end
